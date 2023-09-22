@@ -4,6 +4,9 @@ Rainbow Animtaion used in the background: https://codepen.io/nohoid/pen/eYXpNL
 
 Favicon: "https://www.freepik.com/icons/paintbrush"
 
+# Demo
+![Demo Image](https://github.com/nithin-sivakumar/pixel-painter/blob/main/res/demo.png?raw=true)
+
 # Pixel Paint v1.1
 Pixel Paint is a simple web application that allows users to create and paint on a grid. It provides an interactive interface to create pixel art effortlessly.
 
