@@ -32,4 +32,4 @@ To erase, click the "Erase" button.
 Clear the entire grid with the "Clear Grid" button.
 
 ## Author
-<br>Made with ❤️ by [Nithin Sivakumar](https://github.com/nithin-sivakumar/).
+Made with ❤️ by [Nithin Sivakumar](https://github.com/nithin-sivakumar/).
