@@ -1,6 +1,7 @@
 # pixel-painter
 
 Rainbow Animtaion used in the background: https://codepen.io/nohoid/pen/eYXpNL
+
 Favicon: "https://www.freepik.com/icons/paintbrush"
 
 # Pixel Paint v1.1
