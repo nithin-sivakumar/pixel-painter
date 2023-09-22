@@ -31,5 +31,5 @@ Click the "Paint" button and start filling the cells with color.
 To erase, click the "Erase" button.
 Clear the entire grid with the "Clear Grid" button.
 
-Author
-Made with ❤️ by [Nithin Sivakumar](https://github.com/nithin-sivakumar/).
+## Author
+<br>Made with ❤️ by [Nithin Sivakumar](https://github.com/nithin-sivakumar/).
