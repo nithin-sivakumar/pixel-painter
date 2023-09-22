@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-color: pink;
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 80vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #000;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+
+label {
+    display: block;
+}
+
+span {
+    position: relative;
+    font-size: 22px;
+    bottom: -1px;
+}
+
+.opt-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+button {
+    background-color: #FFC7EA;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
+    color: #000;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #D8B4F8;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: #000;
+}
+
+input[type="color"] {
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    background-color: transparent;
+    width: 70px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.gridCol {
+    height: 1em;
+    width: 1em;
+    border: 1px solid #ddd;
+}
+
+.gridRow {
+    display: flex;
+}
+
+.footer {
+    padding: 20px 0px;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: large;
+    color: #000;
+    font-weight: bolder;
+}
+
+.footer-link:hover {
+    background-color: #ddd;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+    .gridCol {
+        height: 0.8em;
+        width: 0.8em;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Rainbow */
+
+.main { 
+    /* height: 100%;
+    width: 100%; */
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}

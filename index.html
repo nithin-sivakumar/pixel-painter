@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pixel Painter v1.0</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="wrapper">
+        <h1>Pixel Paint v1.1</h1>
+        <div class="options">
+          <div class="opt-wrapper">
+            <div class="slider">
+              <label for="width-range">Grid width</label>
+              <input type="range" id="width-range" min="1" max="25" />
+              <span id="width-value">00</span>
+            </div>
+            <div class="slider">
+              <label for="height-range">Grid Height</label>
+              <input type="range" id="height-range" min="1" max="25" />
+              <span id="height-value">00</span>
+            </div>
+          </div>
+
+          <div class="opt-wrapper">
+            <button id="submit-grid">Create Grid</button>
+            <button id="clear-grid">Clear Grid</button>
+            <input type="color" name="color-input" id="color-input" />
+            <button id="erase-btn">Erase</button>
+            <button id="paint-btn">Paint</button>
+          </div>
+        </div>
+        <div class="container"></div>
+        <div class="footer">Made with ❤️ by <a class="footer-link" href="https://github.com/nithin-sivakumar">Nithin Sivakumar</span></div>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
